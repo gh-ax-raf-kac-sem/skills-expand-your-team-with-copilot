@@ -664,3 +664,120 @@ footer {
 #logout-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+/* Share Section Styles */
+.share-section {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-light);
+  display: flex;
+  justify-content: center;
+}
+
+.share-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  background-color: #f0f0f0;
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.share-button:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.share-icon {
+  font-size: 1rem;
+}
+
+/* Share Dialog Styles */
+.share-modal-content {
+  max-width: 400px;
+}
+
+.share-modal-content h3 {
+  margin-bottom: 10px;
+  color: var(--primary);
+}
+
+.share-modal-content p {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+.share-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.share-option-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background-color: var(--surface);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.share-option-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.share-option-icon {
+  font-size: 1.2rem;
+}
+
+.facebook-share:hover {
+  background-color: #1877f2;
+  color: white;
+  border-color: #1877f2;
+}
+
+.twitter-share:hover {
+  background-color: #1da1f2;
+  color: white;
+  border-color: #1da1f2;
+}
+
+.email-share:hover {
+  background-color: #ea4335;
+  color: white;
+  border-color: #ea4335;
+}
+
+.copy-link:hover {
+  background-color: #34a853;
+  color: white;
+  border-color: #34a853;
+}
+
+.close-share-modal {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--text-secondary);
+}
+
+.close-share-modal:hover {
+  color: var(--text-primary);
+}
